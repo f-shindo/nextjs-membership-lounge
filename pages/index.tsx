@@ -19,11 +19,11 @@ import { ThirdwebSDK } from "@3rdweb/sdk";
 const injectedConnector = new InjectedConnector({ supportedChainIds: [137] });
 
 const MEMBERSHIP_NFT_CONTRACT_ADDRESS =
-  "0x732ed061B5569f778F43CcCEf5B6C7B3205003db";
-const MEMBERSHIP_NFT_TOKEN_ID = "1";
+  "0x748B4D5d375A7d6f93f64C1d3a4844B04d97eCc8";
+const MEMBERSHIP_NFT_TOKEN_ID = "0";
 const MEMBERSHIP_NFT_TOKEN_COUNT = 1;
 const OPENSEA_LINK =
-  "https://opensea.io/assets/matic/0x732ed061B5569f778F43CcCEf5B6C7B3205003db/1";
+  "https://opensea.io/assets/matic/0x748B4D5d375A7d6f93f64C1d3a4844B04d97eCc8/0";
 
 /**
  * A React hook that can be used to determine membership status of the connected wallet
