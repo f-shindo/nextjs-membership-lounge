@@ -155,7 +155,7 @@ const Home: NextPage = () => {
       {hasMembershipAccess ? (
         <Center mt={8}>
           <Text textAlign="center">
-            Only member can see this: heres the member only private discord
+            Onlyyyyyyy member can see this: heres the member only private discord
             invite link{" "}
             <Link color="blue" href="https://discord.gg/thirdweb" isExternal>
               https://discord.gg/thirdweb
