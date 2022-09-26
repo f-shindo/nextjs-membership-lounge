@@ -9,7 +9,7 @@ import { useRouter } from "next/router";
 
 // Polygon only
 const MEMBERSHIP_NFT_CONTRACT_ADDRESS =
-  "0x732ed061B5569f778F43CcCEf5B6C7B3205003db";
+  "0x748B4D5d375A7d6f93f64C1d3a4844B04d97eCc8";
 const MEMBERSHIP_NFT_TOKEN_ID_REQ = "0";
 const MEMBERSHIP_NFT_TOKEN_COUNT_REQ = 1;
 
