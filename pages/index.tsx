@@ -14,7 +14,6 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 import React, { useCallback, useState } from "react";
 import { ThirdwebSDK } from "@3rdweb/sdk";
-import Aimage from '../public/miyajima.jpeg';
 
 // Polygon only
 const injectedConnector = new InjectedConnector({ supportedChainIds: [137] });
@@ -143,14 +142,6 @@ const Home: NextPage = () => {
           membership nft in the connected wallet */}
       {hasMembershipAccess ? (
         <Center mt={8}>
-          <Text textAlign="center">
-            Onlyyyyyyy member can see this: heres the member only private discord
-            invite link{" "}
-            <Link color="blue" href="https://discord.gg/thirdweb" isExternal>
-              https://discord.gg/thirdweb
-            </Link>
-            <img src={Aimage.src} alt='miyajima'/>
-          </Text>
         </Center>
       ) : null}
 
