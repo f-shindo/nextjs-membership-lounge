@@ -14,6 +14,7 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 import React, { useCallback, useState } from "react";
 import { ThirdwebSDK } from "@3rdweb/sdk";
+import Aimage from '../public/miyajima.jpeg';
 
 // Polygon only
 const injectedConnector = new InjectedConnector({ supportedChainIds: [137] });
@@ -148,6 +149,7 @@ const Home: NextPage = () => {
             <Link color="blue" href="https://discord.gg/thirdweb" isExternal>
               https://discord.gg/thirdweb
             </Link>
+            <img src={Aimage.src} alt='miyajima'/>
           </Text>
         </Center>
       ) : null}
