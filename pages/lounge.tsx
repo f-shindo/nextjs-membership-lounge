@@ -6,6 +6,8 @@ import type { InferGetServerSidePropsType, NextPage } from "next";
 import Head from "next/head";
 import React, { useEffect } from "react";
 import { useRouter } from "next/router";
+import Aimage from '../public/miyajima.jpeg';
+
 
 // Polygon only
 const MEMBERSHIP_NFT_CONTRACT_ADDRESS =
@@ -38,17 +40,18 @@ const Home: NextPage = ({
       {/*  */}
       <Center flexDirection="column">
         <Stack direction="row">
-          <Text fontSize="xs">Signature: {signature}</Text>
+          {/* <Text fontSize="xs">Signature: {signature}</Text>
           <Text fontSize="xs">Address: {walletAddress}</Text>
-          <Text fontSize="xs">Balance: {balance}</Text>
+          <Text fontSize="xs">Balance: {balance}</Text> */}
         </Stack>
 
         <Box mt={8} />
 
-        <Heading>Member Only Content</Heading>
+        <Heading>深淵をのぞく時深淵もまたこちらをのぞいているのだ</Heading>
         <Text>
-          Hello This is private content for people who has the NFT only.
+          NFTを持っている方だけが見れる景色ですよ
         </Text>
+        <img src={Aimage.src} alt='miyajima'/>
       </Center>
     </Container>
   );
