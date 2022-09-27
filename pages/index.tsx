@@ -107,23 +107,11 @@ const Home: NextPage = () => {
       <Center flexDirection="column">
         <Heading>Member Only Lounge</Heading>
         <Text>
-          You need to own Membership NFT in order to get access to the lounge
-          webpage.
+          2022年9月28日のいいオフィス広島イベントに参加し、配布されたNFTを保有するメンバーのみが入れるラウンジです。
         </Text>
 
         <Text mt={4} textAlign="center">
-          You need to have at least{" "}
-          <Text fontWeight="bold" as="span">
-            {MEMBERSHIP_NFT_TOKEN_COUNT}{" "}
-          </Text>
-          <Text as="span">of token id </Text>
-          <Text fontWeight="bold" as="span">
-            {MEMBERSHIP_NFT_TOKEN_ID}{" "}
-          </Text>
-          <Text as="span">from NFT address </Text>
-          <Text fontWeight="bold" as="span">
-            {MEMBERSHIP_NFT_CONTRACT_ADDRESS}{" "}
-          </Text>
+          メンバーシップNFTはこちらからご確認ください！
         </Text>
 
         <Link mt={4} href={OPENSEA_LINK} color="blue" isExternal>
